@@ -1,5 +1,9 @@
+import { SearchWrapper } from './styles';
+
 export function Search() {
   return (
-    <input type="text" placeholder="Example: ldrbraga" />
+    <SearchWrapper>
+      <input type="text" placeholder="Example: ldrbraga" />
+    </SearchWrapper>
   )
 }
